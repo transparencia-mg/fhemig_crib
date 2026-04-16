@@ -36,7 +36,7 @@ resources:
         - name: predicao_obito
           type: geopoint
           title: Predição de Óbito
-          description: Taxa de predição de mortalidade
+          description: Taxa de predição de mortalidade (em pontos percentuais)
         - name: saidas_rn
           type: integer
           title: Saídas
@@ -85,7 +85,7 @@ resources:
         - name: predicao_obito
           type: geopoint
           title: Predição de Óbito
-          description: Taxa de predição de mortalidade
+          description: Taxa de predição de mortalidade (em pontos percentuais)
         - name: saidas_rn
           type: integer
           title: Saídas
