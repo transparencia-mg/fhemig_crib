@@ -1,0 +1,161 @@
+﻿unidade;mes;ano;grau;score;predicao_obito;saidas;obitos_esperados;obitos_ocorridos
+HJK;janeiro;2026;I;0 a 5;9,3;1;0,09;0
+HJK;janeiro;2026;II;6 a 10;55,9;2;1,12;0
+HJK;janeiro;2026;III;11 a 5;73,1;0;0,0;0
+HJK;janeiro;2026;IV;> 15;100,0;0;0,0;0
+HRAD;janeiro;2026;I;0 a 5;9,3;17;1,58;0
+HRAD;janeiro;2026;II;6 a 10;55,9;0;0,0;0
+HRAD;janeiro;2026;III;11 a 5;73,1;1;0,73;1
+HRAD;janeiro;2026;IV;> 15;100,0;0;0,0;0
+HRJP;janeiro;2026;I;0 a 5;9,3;0;0,0;0
+HRJP;janeiro;2026;II;6 a 10;55,9;2;1,1;1
+HRJP;janeiro;2026;III;11 a 5;73,1;0;0,0;0
+HRJP;janeiro;2026;IV;> 15;100,0;0;0,0;0
+MOV;janeiro;2026;I;0 a 5;9,3;4;0,4;0
+MOV;janeiro;2026;II;6 a 10;55,9;5;2,8;2
+MOV;janeiro;2026;III;11 a 5;73,1;5;3,7;2
+MOV;janeiro;2026;IV;> 15;100,0;1;1,0;1
+HJK;fevereiro;2026;I;0 a 5;9,3;0;0,0;0
+HJK;fevereiro;2026;II;6 a 10;55,9;0;0,0;0
+HJK;fevereiro;2026;III;11 a 5;73,1;1;0,73;0
+HJK;fevereiro;2026;IV;> 15;100,0;0;0,0;0
+HRAD;fevereiro;2026;I;0 a 5;9,3;14;1,3;0
+HRAD;fevereiro;2026;II;6 a 10;55,9;1;0,56;1
+HRAD;fevereiro;2026;III;11 a 5;73,1;4;2,92;4
+HRAD;fevereiro;2026;IV;> 15;100,0;0;0,0;0
+HRJP;fevereiro;2026;I;0 a 5;9,3;3;0,3;0
+HRJP;fevereiro;2026;II;6 a 10;55,9;0;0,0;0
+HRJP;fevereiro;2026;III;11 a 5;73,1;0;0,0;0
+HRJP;fevereiro;2026;IV;> 15;100,0;0;0,0;0
+MOV;fevereiro;2026;I;0 a 5;9,3;0;0,0;0
+MOV;fevereiro;2026;II;6 a 10;55,9;5;2,8;0
+MOV;fevereiro;2026;III;11 a 5;73,1;1;0,7;0
+MOV;fevereiro;2026;IV;> 15;100,0;0;0,0;0
+HJK;março;2026;I;0 a 5;9,3;0;0,0;0
+HJK;março;2026;II;6 a 10;55,9;1;0,6;1
+HJK;março;2026;III;11 a 5;73,1;0;0,0;0
+HJK;março;2026;IV;> 15;100,0;0;0,0;0
+HRAD;março;2026;I;0 a 5;9,3;12;1,12;0
+HRAD;março;2026;II;6 a 10;55,9;2;1,12;1
+HRAD;março;2026;III;11 a 5;73,1;3;2,19;2
+HRAD;março;2026;IV;> 15;100,0;0;0,0;0
+HRJP;março;2026;I;0 a 5;9,3;1;0,1;0
+HRJP;março;2026;II;6 a 10;55,9;3;1,7;1
+HRJP;março;2026;III;11 a 5;73,1;1;0,7;0
+HRJP;março;2026;IV;> 15;100,0;0;0,0;0
+MOV;março;2026;I;0 a 5;9,3;2;0,2;0
+MOV;março;2026;II;6 a 10;55,9;5;2,8;1
+MOV;março;2026;III;11 a 5;73,1;2;1,5;1
+MOV;março;2026;IV;> 15;100,0;0;0,0;0
+HJK;abril;2026;I;0 a 5;9,3;1;0,1;0
+HJK;abril;2026;II;6 a 10;55,9;1;0,6;1
+HJK;abril;2026;III;11 a 5;73,1;0;0,0;0
+HJK;abril;2026;IV;> 15;100,0;0;0,0;0
+HRAD;abril;2026;I;0 a 5;9,3;10;0,93;0
+HRAD;abril;2026;II;6 a 10;55,9;2;1,12;0
+HRAD;abril;2026;III;11 a 5;73,1;3;2,19;2
+HRAD;abril;2026;IV;> 15;100,0;0;0,0;0
+HRJP;abril;2026;I;0 a 5;9,3;2;0,2;0
+HRJP;abril;2026;II;6 a 10;55,9;2;1,1;0
+HRJP;abril;2026;III;11 a 5;73,1;0;0,0;0
+HRJP;abril;2026;IV;> 15;100,0;0;0,0;0
+MOV;abril;2026;I;0 a 5;9,3;3;0,3;0
+MOV;abril;2026;II;6 a 10;55,9;3;1,7;0
+MOV;abril;2026;III;11 a 5;73,1;2;1,5;2
+MOV;abril;2026;IV;> 15;100,0;3;3,0;2
+HJK;maio;2026;I;0 a 5;9,3;1;0,1;0
+HJK;maio;2026;II;6 a 10;55,9;1;0,6;0
+HJK;maio;2026;III;11 a 5;73,1;0;0,0;0
+HJK;maio;2026;IV;> 15;100,0;0;0,0;0
+HRAD;maio;2026;I;0 a 5;9,3;17;1,58;0
+HRAD;maio;2026;II;6 a 10;55,9;2;1,12;1
+HRAD;maio;2026;III;11 a 5;73,1;0;0,0;0
+HRAD;maio;2026;IV;> 15;100,0;2;2,0;2
+HRJP;maio;2026;I;0 a 5;9,3;4;0,4;0
+HRJP;maio;2026;II;6 a 10;55,9;5;2,8;0
+HRJP;maio;2026;III;11 a 5;73,1;0;0,0;0
+HRJP;maio;2026;IV;> 15;100,0;0;0,0;0
+MOV;maio;2026;I;0 a 5;9,3;1;0,1;0
+MOV;maio;2026;II;6 a 10;55,9;3;1,7;0
+MOV;maio;2026;III;11 a 5;73,1;1;0,7;1
+MOV;maio;2026;IV;> 15;100,0;0;0,0;0
+HJK;junho;2026;I;0 a 5;9,3;0;0,0;0
+HJK;junho;2026;II;6 a 10;55,9;4;2,2;0
+HJK;junho;2026;III;11 a 5;73,1;1;0,7;0
+HJK;junho;2026;IV;> 15;100,0;0;0,0;0
+HRAD;junho;2026;I;0 a 5;9,3;15;1,4;1
+HRAD;junho;2026;II;6 a 10;55,9;4;2,24;2
+HRAD;junho;2026;III;11 a 5;73,1;1;0,73;0
+HRAD;junho;2026;IV;> 15;100,0;0;0,0;0
+HRJP;junho;2026;I;0 a 5;9,3;3;0,3;0
+HRJP;junho;2026;II;6 a 10;55,9;1;0,6;0
+HRJP;junho;2026;III;11 a 5;73,1;3;2,2;1
+HRJP;junho;2026;IV;> 15;100,0;1;1,0;0
+MOV;junho;2026;I;0 a 5;9,3;2;0,2;0
+MOV;junho;2026;II;6 a 10;55,9;2;1,1;0
+MOV;junho;2026;III;11 a 5;73,1;3;2,2;1
+MOV;junho;2026;IV;> 15;100,0;1;1,0;1
+HJK;julho;2026;I;0 a 5;9,3;0;0,0;0
+HJK;julho;2026;II;6 a 10;55,9;0;0,0;0
+HJK;julho;2026;III;11 a 5;73,1;1;0,7;1
+HJK;julho;2026;IV;> 15;100,0;0;0,0;0
+HRAD;julho;2026;I;0 a 5;9,3;11;1,02;1
+HRAD;julho;2026;II;6 a 10;55,9;1;0,56;1
+HRAD;julho;2026;III;11 a 5;73,1;2;1,46;2
+HRAD;julho;2026;IV;> 15;100,0;1;1,0;1
+HRJP;julho;2026;I;0 a 5;9,3;1;0,1;0
+HRJP;julho;2026;II;6 a 10;55,9;1;0,6;0
+HRJP;julho;2026;III;11 a 5;73,1;1;0,7;1
+HRJP;julho;2026;IV;> 15;100,0;0;0,0;0
+MOV;julho;2026;I;0 a 5;9,3;0;0,0;0
+MOV;julho;2026;II;6 a 10;55,9;0;0,0;0
+MOV;julho;2026;III;11 a 5;73,1;2;1,5;0
+MOV;julho;2026;IV;> 15;100,0;0;0,0;0
+HJK;agosto;2026;I;0 a 5;9,3;1;0,1;0
+HJK;agosto;2026;II;6 a 10;55,9;3;1,7;3
+HJK;agosto;2026;III;11 a 5;73,1;3;2,2;0
+HJK;agosto;2026;IV;> 15;100,0;0;0,0;0
+HRAD;agosto;2026;I;0 a 5;9,3;0;0,0;0
+HRAD;agosto;2026;II;6 a 10;55,9;0;0,0;0
+HRAD;agosto;2026;III;11 a 5;73,1;0;0,0;0
+HRAD;agosto;2026;IV;> 15;100,0;0;0,0;0
+HRJP;agosto;2026;I;0 a 5;9,3;2;0,2;1
+HRJP;agosto;2026;II;6 a 10;55,9;1;0,6;1
+HRJP;agosto;2026;III;11 a 5;73,1;1;0,7;0
+HRJP;agosto;2026;IV;> 15;100,0;0;0,0;0
+MOV;agosto;2026;I;0 a 5;9,3;1;0,1;0
+MOV;agosto;2026;II;6 a 10;55,9;0;0,0;0
+MOV;agosto;2026;III;11 a 5;73,1;0;0,0;0
+MOV;agosto;2026;IV;> 15;100,0;0;0,0;0
+HJK;setembro;2026;I;0 a 5;9,3;2;0,2;0
+HJK;setembro;2026;II;6 a 10;55,9;0;0,0;0
+HJK;setembro;2026;III;11 a 5;73,1;0;0,0;0
+HJK;setembro;2026;IV;> 15;100,0;0;0,0;0
+HRAD;setembro;2026;I;0 a 5;9,3;0;0,0;0
+HRAD;setembro;2026;II;6 a 10;55,9;0;0,0;0
+HRAD;setembro;2026;III;11 a 5;73,1;0;0,0;0
+HRAD;setembro;2026;IV;> 15;100,0;0;0,0;0
+HRJP;setembro;2026;I;0 a 5;9,3;1;0,1;0
+HRJP;setembro;2026;II;6 a 10;55,9;3;1,7;0
+HRJP;setembro;2026;III;11 a 5;73,1;2;1,5;2
+HRJP;setembro;2026;IV;> 15;100,0;0;0,0;0
+MOV;setembro;2026;I;0 a 5;9,3;4;0,4;0
+MOV;setembro;2026;II;6 a 10;55,9;0;0,0;0
+MOV;setembro;2026;III;11 a 5;73,1;1;0,7;0
+MOV;setembro;2026;IV;> 15;100,0;0;0,0;0
+HJK;outubro;2026;I;0 a 5;9,3;0;0,0;0
+HJK;outubro;2026;II;6 a 10;55,9;1;0,6;0
+HJK;outubro;2026;III;11 a 5;73,1;0;0,0;0
+HJK;outubro;2026;IV;> 15;100,0;0;0,0;0
+HRAD;outubro;2026;I;0 a 5;9,3;0;0,0;0
+HRAD;outubro;2026;II;6 a 10;55,9;0;0,0;0
+HRAD;outubro;2026;III;11 a 5;73,1;0;0,0;0
+HRAD;outubro;2026;IV;> 15;100,0;0;0,0;0
+HRJP;outubro;2026;I;0 a 5;9,3;1;0,1;0
+HRJP;outubro;2026;II;6 a 10;55,9;0;0,0;0
+HRJP;outubro;2026;III;11 a 5;73,1;0;0,0;0
+HRJP;outubro;2026;IV;> 15;100,0;0;0,0;0
+MOV;outubro;2026;I;0 a 5;9,3;1;0,1;0
+MOV;outubro;2026;II;6 a 10;55,9;0;0,0;0
+MOV;outubro;2026;III;11 a 5;73,1;0;0,0;0
+MOV;outubro;2026;IV;> 15;100,0;0;0,0;0
