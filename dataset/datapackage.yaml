@@ -15,22 +15,31 @@ resources:
       fields:
         - name: unidade
           type: string
+          description: Sigla da unidade hospitalar
         - name: mes
           type: string
+          description: Mês referente ao dado
         - name: ano
           type: integer
+          description: Ano referente ao dado
         - name: grau
           type: string
+          description: Grau de gravidade do paciente
         - name: escore
           type: string
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
           type: geopoint
+          description: Taxa de predição de mortalidade (em pontos percentuais)
         - name: saidas_rn
           type: integer
+          description: Quantidade de saídas
         - name: obitos_ocorridos
           type: integer
+          description: Quantidade de óbitos ocorridos
         - name: obitos_esperados
           type: string
+          description: Quantidade de óbitos esperados
     title: CRIB 2018
   - path: data/crib.csv
     name: crib
@@ -43,24 +52,31 @@ resources:
       delimiter: ;
     schema:
       fields:
-        - name: excluir
-          type: string
         - name: unidade
           type: string
-        - name: ano
-          type: string
+          description: Sigla da unidade hospitalar
         - name: mes
-          type: geopoint
+          type: string
+          description: Mês referente ao dado
+        - name: ano
+          type: integer
+          description: Ano referente ao dado
         - name: grau
           type: string
-        - name: score
+          description: Grau de gravidade do paciente
+        - name: escore
           type: string
+          description: Pontuação de gravidade do paciente
         - name: predicao_obito
-          type: string
-        - name: saidas
           type: geopoint
-        - name: obitos_esperados
-          type: geopoint
+          description: Taxa de predição de mortalidade (em pontos percentuais)
+        - name: saidas_rn
+          type: integer
+          description: Quantidade de saídas
         - name: obitos_ocorridos
-          type: geopoint
+          type: integer
+          description: Quantidade de óbitos ocorridos
+        - name: obitos_esperados
+          type: string
+          description: Quantidade de óbitos esperados
     title: CRIB A PARTIR DE 2019
