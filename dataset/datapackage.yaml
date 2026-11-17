@@ -33,3 +33,36 @@ resources:
           type: string
     title: Insira um título humanamente legível para este recurso.
     description: Insira a descrição/explicação detalhada deste recurso.
+  - path: data/crib.csv
+    name: crib
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect:
+      delimiter: ;
+    schema:
+      fields:
+        - name: excluir
+          type: string
+        - name: unidade
+          type: string
+        - name: ano
+          type: string
+        - name: mes
+          type: geopoint
+        - name: grau
+          type: string
+        - name: score
+          type: string
+        - name: predicao_obito
+          type: string
+        - name: saidas
+          type: geopoint
+        - name: obitos_esperados
+          type: geopoint
+        - name: obitos_ocorridos
+          type: geopoint
+    title: Insira um título humanamente legível para este recurso.
+    description: Insira a descrição/explicação detalhada deste recurso.
