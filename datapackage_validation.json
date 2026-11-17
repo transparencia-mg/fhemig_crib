@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.099,
+  "time": 0.073,
   "errors": [],
   "tasks": [
     {
@@ -55,8 +55,7 @@
             }
           ]
         },
-        "title": "Insira um título humanamente legível para este recurso.",
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "title": "CRIB 2018",
         "stats": {
           "hash": "f03664c291e00185932940d358a6bd36",
           "bytes": 5879,
@@ -64,7 +63,7 @@
           "rows": 144
         }
       },
-      "time": 0.017,
+      "time": 0.013,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -148,8 +147,7 @@
             }
           ]
         },
-        "title": "Insira um título humanamente legível para este recurso.",
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "title": "CRIB A PARTIR DE 2019",
         "stats": {
           "hash": "7306ca282ed93b5725c2ab6d09c6a94f",
           "bytes": 75451,
@@ -157,7 +155,7 @@
           "rows": 1507
         }
       },
-      "time": 0.06,
+      "time": 0.045,
       "scope": [
         "hash-count-error",
         "byte-count-error",
