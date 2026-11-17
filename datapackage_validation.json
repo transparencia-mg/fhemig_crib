@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.019,
+  "time": 0.099,
   "errors": [],
   "tasks": [
     {
@@ -64,7 +64,7 @@
           "rows": 144
         }
       },
-      "time": 0.012,
+      "time": 0.017,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -91,11 +91,520 @@
         "errors": 0
       },
       "valid": true
+    },
+    {
+      "resource": {
+        "path": "data/crib.csv",
+        "name": "crib",
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "format": "csv",
+        "hashing": "md5",
+        "encoding": "utf-8-sig",
+        "dialect": {
+          "delimiter": ";"
+        },
+        "schema": {
+          "fields": [
+            {
+              "name": "excluir",
+              "type": "string"
+            },
+            {
+              "name": "unidade",
+              "type": "string"
+            },
+            {
+              "name": "ano",
+              "type": "string"
+            },
+            {
+              "name": "mes",
+              "type": "geopoint"
+            },
+            {
+              "name": "grau",
+              "type": "string"
+            },
+            {
+              "name": "score",
+              "type": "string"
+            },
+            {
+              "name": "predicao_obito",
+              "type": "string"
+            },
+            {
+              "name": "saidas",
+              "type": "geopoint"
+            },
+            {
+              "name": "obitos_esperados",
+              "type": "geopoint"
+            },
+            {
+              "name": "obitos_ocorridos",
+              "type": "geopoint"
+            }
+          ]
+        },
+        "title": "Insira um título humanamente legível para este recurso.",
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "stats": {
+          "hash": "7306ca282ed93b5725c2ab6d09c6a94f",
+          "bytes": 75451,
+          "fields": 10,
+          "rows": 1507
+        }
+      },
+      "time": 0.06,
+      "scope": [
+        "hash-count-error",
+        "byte-count-error",
+        "field-count-error",
+        "row-count-error",
+        "blank-header",
+        "extra-label",
+        "missing-label",
+        "blank-label",
+        "duplicate-label",
+        "incorrect-label",
+        "blank-row",
+        "primary-key-error",
+        "foreign-key-error",
+        "extra-cell",
+        "missing-cell",
+        "type-error",
+        "constraint-error",
+        "unique-error"
+      ],
+      "partial": false,
+      "errors": [
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "03/2020",
+            "HRAD",
+            "2020,0",
+            "3,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "0,0"
+          ],
+          "rowNumber": 229,
+          "rowPosition": 230,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"230\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "11/2020",
+            "HRAD",
+            "2020,0",
+            "11,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "1,0"
+          ],
+          "rowNumber": 357,
+          "rowPosition": 358,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"358\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "08/2021",
+            "HRAD",
+            "2021,0",
+            "8,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "1,0"
+          ],
+          "rowNumber": 501,
+          "rowPosition": 502,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"502\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "11/2021",
+            "MOV",
+            "2021,0",
+            "11,0",
+            "III",
+            "11 a 5",
+            "73,1",
+            "4,0",
+            "2,92",
+            "3,0"
+          ],
+          "rowNumber": 559,
+          "rowPosition": 560,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"560\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "03/2022",
+            "HRAD",
+            "2022,0",
+            "3,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "0,0"
+          ],
+          "rowNumber": 613,
+          "rowPosition": 614,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"614\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "11/2022",
+            "MOV",
+            "2022,0",
+            "11,0",
+            "III",
+            "11 a 5",
+            "73,1",
+            "4,0",
+            "2,92",
+            "1,0"
+          ],
+          "rowNumber": 751,
+          "rowPosition": 752,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"752\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "12/2022",
+            "HRAD",
+            "2022,0",
+            "12,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "1,0"
+          ],
+          "rowNumber": 757,
+          "rowPosition": 758,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"758\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "01/2023",
+            "HRAD",
+            "2023,0",
+            "1,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "1,0"
+          ],
+          "rowNumber": 773,
+          "rowPosition": 774,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"774\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "09/2024",
+            "MOV",
+            "2024,0",
+            "9,0",
+            "III",
+            "11 a 5",
+            "73,1",
+            "4,0",
+            "2,92",
+            "2,0"
+          ],
+          "rowNumber": 1103,
+          "rowPosition": 1104,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"1104\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "10/2024",
+            "MOV",
+            "2024,0",
+            "10,0",
+            "III",
+            "11 a 5",
+            "73,1",
+            "4,0",
+            "2,92",
+            "3,0"
+          ],
+          "rowNumber": 1119,
+          "rowPosition": 1120,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"1120\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "05/2025",
+            "MOV",
+            "2025,0",
+            "5,0",
+            "III",
+            "11 a 5",
+            "73,1",
+            "4,0",
+            "2,92",
+            "2,0"
+          ],
+          "rowNumber": 1231,
+          "rowPosition": 1232,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"1232\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "2,92",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "02/2026",
+            "HRAD",
+            "2026,0",
+            "2,0",
+            "III",
+            "11 a 5",
+            "73,1",
+            "4,0",
+            "2,92",
+            "4,0"
+          ],
+          "rowNumber": 1367,
+          "rowPosition": 1368,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"2,92\" in row \"1368\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cell": "0,93",
+          "fieldName": "obitos_esperados",
+          "fieldNumber": 9,
+          "fieldPosition": 9,
+          "cells": [
+            "04/2026",
+            "HRAD",
+            "2026,0",
+            "4,0",
+            "I",
+            "0 a 5",
+            "9,3",
+            "10,0",
+            "0,93",
+            "0,0"
+          ],
+          "rowNumber": 1397,
+          "rowPosition": 1398,
+          "code": "type-error",
+          "name": "Type Error",
+          "tags": [
+            "#table",
+            "#row",
+            "#cell"
+          ],
+          "note": "type is \"geopoint/default\"",
+          "message": "Type error in the cell \"0,93\" in row \"1398\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
+          "description": "The value does not match the schema type and format for this field."
+        },
+        {
+          "cells": [
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            "",
+            ""
+          ],
+          "rowNumber": 1506,
+          "rowPosition": 1507,
+          "code": "blank-row",
+          "name": "Blank Row",
+          "tags": [
+            "#table",
+            "#row"
+          ],
+          "note": "",
+          "message": "Row at position \"1507\" is completely blank",
+          "description": "This row is empty. A row should contain at least one value."
+        }
+      ],
+      "stats": {
+        "errors": 14
+      },
+      "valid": false
     }
   ],
   "stats": {
-    "errors": 0,
-    "tasks": 1
+    "errors": 14,
+    "tasks": 2
   },
-  "valid": true
+  "valid": false
 }
