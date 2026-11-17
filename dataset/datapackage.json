@@ -4,76 +4,58 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "CRIB - Clinical Risk Index for Babies 2018",
+      "path": "data/crib_2018.csv",
+      "name": "crib_2018",
+      "profile": "tabular-data-resource",
+      "scheme": "file",
+      "format": "csv",
+      "hashing": "md5",
+      "encoding": "utf-8-sig",
       "dialect": {
         "delimiter": ";"
       },
-      "encoding": "utf-8-sig",
-      "format": "csv",
-      "hashing": "md5",
-      "name": "crib_2018",
-      "path": "data/crib_2018.csv",
-      "profile": "tabular-data-resource",
       "schema": {
         "fields": [
           {
             "name": "unidade",
-            "type": "string",
-            "description": "Sigla da unidade hospitalar",
-            "title": "Unidade"
+            "type": "string"
           },
           {
             "name": "mes",
-            "type": "string",
-            "title": "Mês",
-            "description": "Mês referente ao dado"
+            "type": "string"
           },
           {
             "name": "ano",
-            "type": "integer",
-            "title": "Ano",
-            "description": "Ano referente ao dado"
+            "type": "integer"
           },
           {
             "name": "grau",
-            "type": "string",
-            "title": "Grau",
-            "description": "Grau de gravidade do paciente"
+            "type": "string"
           },
           {
             "name": "escore",
-            "type": "string",
-            "title": "Escore",
-            "description": "Pontuação de gravidade do paciente"
+            "type": "string"
           },
           {
             "name": "predicao_obito",
-            "type": "geopoint",
-            "title": "Predição de Óbito",
-            "description": "Taxa de predição de mortalidade (em pontos percentuais)"
+            "type": "geopoint"
           },
           {
             "name": "saidas_rn",
-            "type": "integer",
-            "title": "Saídas",
-            "description": "Quantidade de saídas de recém nascido"
+            "type": "integer"
           },
           {
             "name": "obitos_ocorridos",
-            "type": "integer",
-            "title": "Óbitos Ocorridos",
-            "description": "Quantidade de óbitos ocorridos"
+            "type": "integer"
           },
           {
             "name": "obitos_esperados",
-            "type": "geopoint",
-            "title": "Óbitos esperados",
-            "description": "Quantidade de óbitos esperados"
+            "type": "string"
           }
         ]
       },
-      "scheme": "file",
-      "title": "CRIB 2018"
+      "title": "Insira um título humanamente legível para este recurso.",
+      "description": "Insira a descrição/explicação detalhada deste recurso."
     }
   ]
 }
