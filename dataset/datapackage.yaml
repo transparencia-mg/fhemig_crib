@@ -32,3 +32,33 @@ resources:
         - name: obitos_esperados
           type: string
     title: CRIB 2018
+  - path: data/crib.csv
+    name: crib
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+    dialect:
+      delimiter: ;
+    schema:
+      fields:
+        - name: unidade
+          type: string
+        - name: mes
+          type: string
+        - name: ano
+          type: integer
+        - name: grau
+          type: string
+        - name: escore
+          type: string
+        - name: predicao_obito
+          type: geopoint
+        - name: saidas_rn
+          type: integer
+        - name: obitos_ocorridos
+          type: integer
+        - name: obitos_esperados
+          type: string
+    title: CRIB A PARTIR DE 2019
