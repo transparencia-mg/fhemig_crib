@@ -50,4 +50,46 @@ resources:
           title: Óbitos esperados
           description: Quantidade de óbitos esperados
     scheme: file
-    title: CRIB 2018
+    title: CRIB
+    path: data/crib.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: unidade
+          type: string
+          description: Sigla da unidade hospitalar
+          title: Unidade
+        - name: mes
+          type: string
+          title: Mês
+          description: Mês referente ao dado
+        - name: ano
+          type: integer
+          title: Ano
+          description: Ano referente ao dado
+        - name: grau
+          type: string
+          title: Grau
+          description: Grau de gravidade do paciente
+        - name: escore
+          type: string
+          title: Escore
+          description: Pontuação de gravidade do paciente
+        - name: predicao_obito
+          type: geopoint
+          title: Predição de Óbito
+          description: Taxa de predição de mortalidade (em pontos percentuais)
+        - name: saidas_rn
+          type: integer
+          title: Saídas
+          description: Quantidade de saídas de recém nascido
+        - name: obitos_ocorridos
+          type: integer
+          title: Óbitos Ocorridos
+          description: Quantidade de óbitos ocorridos
+        - name: obitos_esperados
+          type: geopoint
+          title: Óbitos esperados
+          description: Quantidade de óbitos esperados
+    scheme: file
+    title: CRIB A PARTIR DE 2019
