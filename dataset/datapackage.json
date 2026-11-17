@@ -6,6 +6,7 @@
     {
       "path": "data/crib_2018.csv",
       "name": "crib_2018",
+      "title": "CRIB 2018",
       "profile": "tabular-data-resource",
       "scheme": "file",
       "format": "csv",
@@ -34,11 +35,11 @@
           },
           {
             "name": "escore",
-            "type": "string"
+            "type": "number"
           },
           {
             "name": "predicao_obito",
-            "type": "geopoint"
+            "type": "number"
           },
           {
             "name": "saidas_rn",
@@ -50,11 +51,10 @@
           },
           {
             "name": "obitos_esperados",
-            "type": "string"
+            "type": "number"
           }
         ]
-      },
-      "title": "CRIB 2018"
+      }
     }
   ]
 }
