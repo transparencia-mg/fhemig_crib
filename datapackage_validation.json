@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.023,
+  "time": 0.024,
   "errors": [],
   "tasks": [
     {
@@ -55,8 +55,7 @@
             }
           ]
         },
-        "title": "Insira um título humanamente legível para este recurso.",
-        "description": "Insira a descrição/explicação detalhada deste recurso.",
+        "title": "CRIB 2018",
         "stats": {
           "hash": "f03664c291e00185932940d358a6bd36",
           "bytes": 5879,
