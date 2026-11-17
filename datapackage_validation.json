@@ -1,80 +1,62 @@
 {
   "version": "4.16.6",
-  "time": 0.018,
+  "time": 0.019,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "CRIB 2018",
+        "path": "data/crib_2018.csv",
+        "name": "crib_2018",
+        "profile": "tabular-data-resource",
+        "scheme": "file",
+        "format": "csv",
+        "hashing": "md5",
+        "encoding": "utf-8-sig",
         "dialect": {
           "delimiter": ";"
         },
-        "encoding": "utf-8-sig",
-        "format": "csv",
-        "hashing": "md5",
-        "name": "crib_2018",
-        "path": "data/crib_2018.csv",
-        "profile": "tabular-data-resource",
         "schema": {
           "fields": [
             {
               "name": "unidade",
-              "type": "string",
-              "description": "Sigla da unidade hospitalar",
-              "title": "Unidade"
+              "type": "string"
             },
             {
               "name": "mes",
-              "type": "string",
-              "title": "Mês",
-              "description": "Mês referente ao dado"
+              "type": "string"
             },
             {
               "name": "ano",
-              "type": "integer",
-              "title": "Ano",
-              "description": "Ano referente ao dado"
+              "type": "integer"
             },
             {
               "name": "grau",
-              "type": "string",
-              "title": "Grau",
-              "description": "Grau de gravidade do paciente"
+              "type": "string"
             },
             {
               "name": "escore",
-              "type": "string",
-              "title": "Escore",
-              "description": "Pontuação de gravidade do paciente"
+              "type": "string"
             },
             {
               "name": "predicao_obito",
-              "type": "string",
-              "title": "Predição de Óbito",
-              "description": "Taxa de predição de mortalidade (em pontos percentuais)"
+              "type": "geopoint"
             },
             {
-              "name": "saidas",
-              "type": "integer",
-              "title": "Saídas",
-              "description": "Quantidade de saídas de recém nascido"
+              "name": "saidas_rn",
+              "type": "integer"
             },
             {
               "name": "obitos_ocorridos",
-              "type": "integer",
-              "title": "Óbitos Ocorridos",
-              "description": "Quantidade de óbitos ocorridos"
+              "type": "integer"
             },
             {
               "name": "obitos_esperados",
-              "type": "geopoint",
-              "title": "Óbitos esperados",
-              "description": "Quantidade de óbitos esperados"
+              "type": "string"
             }
           ]
         },
-        "scheme": "file",
-        "title": "CRIB 2018",
+        "title": "Insira um título humanamente legível para este recurso.",
+        "description": "Insira a descrição/explicação detalhada deste recurso.",
         "stats": {
           "hash": "f03664c291e00185932940d358a6bd36",
           "bytes": 5879,
@@ -82,7 +64,7 @@
           "rows": 144
         }
       },
-      "time": 0.01,
+      "time": 0.012,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -104,76 +86,16 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [
-        {
-          "label": "saidas_rn",
-          "fieldName": "saidas",
-          "fieldNumber": 7,
-          "fieldPosition": 7,
-          "labels": [
-            "unidade",
-            "mes",
-            "ano",
-            "grau",
-            "escore",
-            "predicao_obito",
-            "saidas_rn",
-            "obitos_ocorridos",
-            "obitos_esperados"
-          ],
-          "rowPositions": [
-            1
-          ],
-          "code": "incorrect-label",
-          "name": "Incorrect Label",
-          "tags": [
-            "#table",
-            "#header",
-            "#label"
-          ],
-          "note": "",
-          "message": "Label \"saidas_rn\" in field saidas at position \"7\" does not match the field name in the schema",
-          "description": "One of the data source header does not match the field name defined in the schema."
-        },
-        {
-          "cell": "0,93",
-          "fieldName": "obitos_esperados",
-          "fieldNumber": 9,
-          "fieldPosition": 9,
-          "cells": [
-            "HRAD",
-            "agosto",
-            "2018",
-            "I",
-            "0 a 5",
-            "9,3",
-            "9",
-            "0",
-            "0,93"
-          ],
-          "rowNumber": 13,
-          "rowPosition": 14,
-          "code": "type-error",
-          "name": "Type Error",
-          "tags": [
-            "#table",
-            "#row",
-            "#cell"
-          ],
-          "note": "type is \"geopoint/default\"",
-          "message": "Type error in the cell \"0,93\" in row \"14\" and field \"obitos_esperados\" at position \"9\": type is \"geopoint/default\"",
-          "description": "The value does not match the schema type and format for this field."
-        }
-      ],
+      "errors": [],
       "stats": {
-        "errors": 2
+        "errors": 0
       },
-      "valid": false
+      "valid": true
     }
   ],
   "stats": {
-    "errors": 2,
+    "errors": 0,
     "tasks": 1
   },
-  "valid": false
+  "valid": true
 }
