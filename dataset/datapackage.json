@@ -54,7 +54,8 @@
           }
         ]
       },
-      "title": "CRIB 2018"
+      "title": "Insira um título humanamente legível para este recurso.",
+      "description": "Insira a descrição/explicação detalhada deste recurso."
     }
   ]
 }
