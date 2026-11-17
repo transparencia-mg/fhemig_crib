@@ -1,6 +1,7 @@
 name: crib
 owner_org: fundacao-hospitalar-do-estado-de-minas-gerais-fhemig
 profile: data-package
+
 resources:
   - path: data/crib_2018.csv
     name: crib_2018
@@ -10,25 +11,76 @@ resources:
     format: csv
     hashing: md5
     encoding: utf-8-sig
+
     dialect:
-      delimiter: ;
+      delimiter: ";"
+
     schema:
       fields:
         - name: unidade
           type: string
+
         - name: mes
           type: string
+
         - name: ano
           type: integer
+
         - name: grau
           type: string
+
         - name: escore
           type: number
+
         - name: predicao_obito
           type: number
+
         - name: saidas_rn
           type: integer
+
         - name: obitos_ocorridos
           type: integer
+
+        - name: obitos_esperados
+          type: number
+
+  - path: data/crib.csv
+    name: crib
+    title: CRIB A PARTIR DE 2019
+    profile: tabular-data-resource
+    scheme: file
+    format: csv
+    hashing: md5
+    encoding: utf-8-sig
+
+    dialect:
+      delimiter: ";"
+
+    schema:
+      fields:
+        - name: unidade
+          type: string
+
+        - name: mes
+          type: string
+
+        - name: ano
+          type: integer
+
+        - name: grau
+          type: string
+
+        - name: escore
+          type: number
+
+        - name: predicao_obito
+          type: number
+
+        - name: saidas_rn
+          type: integer
+
+        - name: obitos_ocorridos
+          type: integer
+
         - name: obitos_esperados
           type: number
